@@ -3,7 +3,7 @@
 <div style="text-align:right"> Sort by: 
   <span>
     <a href={{ "./blog.html" | relative_url }} {% if page.url == "/blog.html" %}style="background-color:#82E0AA" {% endif %}>date</a>
-    <a href={{ "./tags.html" | relative_url }} {% if page.url == "/tags.html" %}style="background-color:#82E0AA" {% endif %}>tags</a>
+    {% comment %} <a href={{ "./tags.html" | relative_url }} {% if page.url == "/tags.html" %}style="background-color:#82E0AA" {% endif %}>tags</a> {% endcomment %}
   </span>
 </div>
 
