@@ -1,0 +1,28 @@
+{%if page.url == "/blog.html" or page.url == "/tags.html" %}
+<br>
+<div style="text-align:right"> Sort by: 
+  <span>
+    <a href={{ "./blog.html" | relative_url }} {% if page.url == "/blog.html" %}style="background-color:#82E0AA" {% endif %}>date</a>
+    <a href={{ "./tags.html" | relative_url }} {% if page.url == "/tags.html" %}style="background-color:#82E0AA" {% endif %}>tags</a>
+  </span>
+</div>
+
+<hr>
+
+{% else %}
+
+<br>
+<div style="text-align:right"> Back to sorted by: 
+  <span>
+    <a href={{ "./blog.html" | relative_url }} >date</a>
+    <a href={{"./tags.html" | relative_url }} >tags</a>
+  </span>
+</div>
+
+<hr>
+
+{% endif %}
+
+
+
+

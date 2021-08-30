@@ -1,0 +1,66 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Mukund Raj, Ph.D.
+tagline: Research
+description: >- # this means to ignore newlines until "baseurl:"
+
+  I am an engineer with a keen interest in developing visualization techniques
+  to understand complex and abstract data sets.  I enjoy working with graphs,
+  ensembles, and spatial data from various domains. Recently, my focus has been
+  on improving performance and portability of visualization algorithms by
+  leveraging advances in programming models, APIs, and hardware platforms, with
+  the goal of expanding the scope of visual analytics solutions.   
+
+
+
+baseurl: "/mraj/" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+github:
+  url:  "https://mukundraj.github.io"
+author:
+  name: "Mukund Raj"
+  email: "mraj@digidual.com"
+  # twitter: "rajmukund123"
+  github: "mukundraj"
+  # youtube: "rajmukund123"
+  linkedin: "mukundraj2"
+  researchgate: "Mukund-Raj"
+  orcid: "0000-0003-0593-3945"
+  scholar: "https://scholar.google.com/citations?user=cKj7QkAAAAAJ&hl=en"
+
+collections:
+- projects
+- papers
+
+# Build settings
+markdown:            kramdown
+theme:                minima
+highlighter:         rouge
+permalink:           none
+gems:
+
+gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jeky
+    ll_plugins
+
+# plugin 
+tag_page_layout: tag_page
+tag_page_dir: tag

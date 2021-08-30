@@ -1,0 +1,32 @@
+
+<header class="masthead">
+<div class="mastheader">
+  <div class="masthead-thumb">
+  <img class="thumbnail" src={{page.image}} alt="Mukund Raj" height="180" width="180" >
+  </div>
+  <div class="masthead-content">
+<h3 class="masthead-title">
+    <a href="{{ site.github.url }}/">{{ site.title }}</a>
+    <!-- <small class="masthead-subtitle">{{ page.title }}</small><br> -->
+    <div class="social-icons">
+    <a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://linkedin.com/in/{{ site.author.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://scholar.google.com/citations?user=cKj7QkAAAAAJ&hl=en"><i class="ai ai-google-scholar" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://www.researchgate.net/profile/{{ site.author.researchgate }}"><i class="ai ai-researchgate" aria-hidden="true" target="_blank"></i></a>
+    <a href="https://orcid.org/{{ site.author.orcid }}"><i class="ai ai-orcid" aria-hidden="true" target="_blank"></i></a>    
+    {% comment %} <a href="https://www.youtube.com/user/{{ site.author.youtube }}"><i class="fa fa-youtube" aria-hidden="true" target="_blank"></i></a> {% endcomment %}
+    {% comment %} <a href="https://twitter.com/{{ site.author.twitter }}"><i class="fa fa-twitter" aria-hidden="true" target="_blank"></i></a> {% endcomment %}
+    </div>
+  </h3> 
+  Visualization Engineer <br>
+Boston, MA<br>
+<br>
+  CV:
+  <a href="{% link /pdf/mukund_resume.pdf %}">short</a> |
+  <a href="{% link /pdf/mukund_cv.pdf %}">long</a> 
+<!-- <font size="-2"> (pdf updated 03/27/21)</font><br> -->
+  </div>
+  {% include menu.html %} 
+  <br>
+</div><br>
+</header>
