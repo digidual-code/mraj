@@ -4,7 +4,7 @@ title: Direct Graph Visualization using React and BabylonJS
 authors: Mukund Raj 
 order: 2020-01
 role: creator
-image: /mraj/images/react-graph-vis.png
+image: /mraj/images/react_graphvis.png
 image_text: A directed graph
 type: 'personal'
 role: creator
